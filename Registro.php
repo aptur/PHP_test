@@ -8,7 +8,7 @@
    		$server = "localhost";
    		$usuario ="root";
    		$contraseña="";
-   		$bd="baseandroid";
+   		$bd="baseDatos";
 
    			$conexion = mysqli_connect($server, $usuario, $contraseña, $bd)
    			or die("Error en la conexion");
